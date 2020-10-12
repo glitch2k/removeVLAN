@@ -1,0 +1,13 @@
+---
+- name: /// FIND SPECIFIC VLAN(S)
+  ios_facts:
+# ignore_errors: yes
+
+# - name: /// VARIFY IF SWITCH IS A VTP SERVER or CLIENT
+
+# - name: /// SAVE INFO TO FILE
+#   lineinfile:
+#     line: "{{ ansible_facts }}"
+#           #  line: "{{ ansible_net_all_ipv4_addresses }}    {{ ansible_net_hostname }} \n "
+#     path: "deviceInfo.txt"
+#     create: yes
